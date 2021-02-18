@@ -26,6 +26,7 @@ else if ($radioVal == "bsc")
     <label><input type="checkbox" class="radio" value="ssc" name="checkbox" />SSC</label>
     <label><input type="checkbox" class="radio" value="hsc" name="checkbox" />HSC</label>
     <label><input type="checkbox" class="radio" value="bsc" name="checkbox" />BSc</label>
+    <label><input type="checkbox" class="radio" value="Msc" name="checkbox" />MSc</label>
 
     </fieldset>
 
