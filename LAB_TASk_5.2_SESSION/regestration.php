@@ -43,6 +43,7 @@
 			$_SESSION['userName'] = $_POST['UserName'];
 			$_SESSION['password'] = $_POST['Password'];
 			$_SESSION['email'] = $_POST['Email'];
+			$_SESSION['status'] = true;
 			header('location: login.php');
 		}
 	} 
