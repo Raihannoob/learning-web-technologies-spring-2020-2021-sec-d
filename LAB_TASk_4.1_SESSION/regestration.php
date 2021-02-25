@@ -61,7 +61,7 @@
 				&nbsp | &nbsp
 				<a href="log.php"> Login </a>
 				&nbsp | &nbsp
-				<a href="reg.php"> Registration </a>
+				<a href="regestration.php"> Registration </a>
 			</td>
 		</tr>
 		<tr>
