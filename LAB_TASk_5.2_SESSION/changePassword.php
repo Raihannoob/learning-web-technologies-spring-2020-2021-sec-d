@@ -1,3 +1,19 @@
+<?php
+    session_start();
+	if(isset($_POST['Submit'])){
+    
+        if($_POST['current'] == $_POST['new'])
+        {
+            echo "New Password should not be same as the Current Password<br>";
+        }
+        if($_POST['new'] != $_POST['confirmnew'])
+        {
+            echo "New Password must match with the Retyped Password<br>";
+        }
+    }
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,20 +43,19 @@
 						<legend>CHANGE PASSWORD</legend>
 						Current Password<br 
 						/>
-						<input type="password" /><br 
+						<input type="password" name="Password"/><br 
 						/>
 						New Password<br />
-						<input type="password" /><br
+						<input type="password" name="new" /><br
 						 />
 						Retype New Password<br 
 						/>
-						<input type="password"
+						<input type="password" name="confirmnew"
 						/>								
 						<hr 
 						/>
-						<input type="button" value="Change" 
-						/>     
-						<a href="">Home</a>						
+						<input type="submit" name="Submit" value="Submit">   
+						<a href="publichome.html">Home</a>						
 					</fieldset>
 					</form>
 				</td>
